@@ -1,0 +1,18 @@
+#container
+{
+    border: 2px double hotpink;
+    margin: auto;
+    width: 80%;
+    min-width: 80%;
+    max-width: 80%;
+    height: 600px;
+    max-height: 600px;
+    
+    
+}
+
+#wrapper
+{
+    border: 1px solid black;
+}
+
