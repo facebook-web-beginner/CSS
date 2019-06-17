@@ -28,6 +28,7 @@ window.addEventListener("DOMContentLoaded", (event )=>{
         ctx.lineTo(75,150)
         ctx.lineTo(50,150)
         
+        ctx.fill();
         
         ctx.stroke();
         
