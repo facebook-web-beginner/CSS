@@ -19,7 +19,7 @@
 
 <h2>Présentation : </h2>
 
-<br><hr>
+<br>
 
 <p><em><strong>Canvas</strong> est un nouvel élément HTML qui peut être utilisé pour dessiner des éléments graphiques à l'aide de scripts (habituellement JavaScript). Il permet par exemple de dessiner des graphiques, de réaliser des compositions de photographies ou des animations simples (voire pas si simples).</em></p>
 
@@ -27,7 +27,7 @@
 
 <p> Le niveau recommandé pour participer, savoir faire un peu de HTML, savoir manipuler le DOM en JS, savoir créer éventuellement une animation en CSS.</p>
 
-<ul> Tes sources pour le projet :
+<ul> Les sources pour le projet :<br>
     <li><a href="https://developer.mozilla.org/fr/docs/Tutoriel_canvas">Le MDN mozilla</a></li>
     <li><a href="https://www.youtube.com/watch?v=FDBHLX5HFn0">Youtube sur les canvas.</a></li>
     <li><a href="https://www.alsacreations.com/tuto/lire/1484-introduction.html">Alsacréation.</a></li>
