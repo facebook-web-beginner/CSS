@@ -23,8 +23,8 @@ window.addEventListener("DOMContentLoaded", (event )=>{
         ctx.lineTo(50,135)
         ctx.lineTo(75,135)
         ctx.lineTo(75,125)
-        ctx.lineTo(95,142)
-        ctx.lineTo(75,159)
+        ctx.lineTo(95,142.50)
+        ctx.lineTo(75,159.50)
         ctx.lineTo(75,150)
         ctx.lineTo(50,150)
         
