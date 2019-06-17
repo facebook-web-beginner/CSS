@@ -2,9 +2,9 @@
 
 <img src="https://mdn.mozillademos.org/files/203/Canvas_animation2.png"></img>
 
-<ul> Team :
-    <li style="list-style-type: space-counter;"><a href="https://github.com/orgs/facebook-web-beginner/people/DaliHK">DaliHK</a></li>
-    <li style="list-style-type: space-counter;"><a href="https://github.com/orgs/facebook-web-beginner/people/R3tr093">R3tr093</a></li>
+<ul style="list-style-type: space-counter;"> Team :
+    <li><a href="https://github.com/orgs/facebook-web-beginner/people/DaliHK">DaliHK</a></li>
+    <li><a href="https://github.com/orgs/facebook-web-beginner/people/R3tr093">R3tr093</a></li>
     
 </ul>   
 
