@@ -37,6 +37,7 @@ function triangleDraw ()
                 ctx.lineTo(62, 25);
                 ctx.lineTo(25, 100);
     
+                ctx.fill();
                 ctx.stroke();
             
         
