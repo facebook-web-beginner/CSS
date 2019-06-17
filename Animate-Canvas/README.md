@@ -2,13 +2,13 @@
 
 <img src="https://mdn.mozillademos.org/files/203/Canvas_animation2.png"></img>
 
-<ul> Team :
+<ul> Team :<br><br>
     <li style='list-style-type: "👍";'><a href="https://github.com/orgs/facebook-web-beginner/people/DaliHK">DaliHK</a></li>
     <li style='list-style-type: "👍";'><a href="https://github.com/orgs/facebook-web-beginner/people/R3tr093">R3tr093</a></li>
     
 </ul>   
 
-<ul> Langages :
+<ul> Langages :<br><br>
     <li>Javascript</li>
     <li>CSS</li>
     <li>HTML</li>
@@ -27,7 +27,7 @@
 
 <p> Le niveau recommandé pour participer, savoir faire un peu de HTML, savoir manipuler le DOM en JS, savoir créer éventuellement une animation en CSS.</p>
 
-<ul> Les sources pour le projet :<br><br>
+<ul> <strong>Les sources pour le projet :</strong><br><br>
     <li><a href="https://developer.mozilla.org/fr/docs/Tutoriel_canvas">Le MDN mozilla</a></li>
     <li><a href="https://www.youtube.com/watch?v=FDBHLX5HFn0">Youtube sur les canvas.</a></li>
     <li><a href="https://www.alsacreations.com/tuto/lire/1484-introduction.html">Alsacréation.</a></li>
