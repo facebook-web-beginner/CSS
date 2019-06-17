@@ -3,8 +3,8 @@
 <img src="https://mdn.mozillademos.org/files/203/Canvas_animation2.png"></img>
 
 <ul> Team :
-    <li><a href="https://github.com/orgs/facebook-web-beginner/people/DaliHK">DaliHK</a></li>
-    <li><a href="https://github.com/orgs/facebook-web-beginner/people/R3tr093">R3tr093</a></li>
+    <li style="list-style-type: space-counter;"><a href="https://github.com/orgs/facebook-web-beginner/people/DaliHK">DaliHK</a></li>
+    <li style="list-style-type: space-counter;"><a href="https://github.com/orgs/facebook-web-beginner/people/R3tr093">R3tr093</a></li>
     
 </ul>   
 
@@ -21,7 +21,7 @@
 
 <br><hr>
 
-<p><em><strong>Canvas</strong> est un nouvel élément HTML qui peut être utilisé pour dessiner des éléments graphiques à l'aide de scripts (habituellement JavaScript). Il permet par exemple de dessiner des graphiques, de réaliser des compositions de photographies ou des animations simples (voire pas si simples). Les images à droite montrent quelques exemples d'implémentations utilisant que nous verrons plus tard dans ce tutoriel.</em></p>
+<p><em><strong>Canvas</strong> est un nouvel élément HTML qui peut être utilisé pour dessiner des éléments graphiques à l'aide de scripts (habituellement JavaScript). Il permet par exemple de dessiner des graphiques, de réaliser des compositions de photographies ou des animations simples (voire pas si simples).</em></p>
 
 <p> La majeur partie du programme fonctionne par du Javascript, l'objectif sera juste de créer toute sortes de canvas avec des formes géométriques ou autres, et ensuite de faire une animation avec tout ce qu'on à pu apprendre.</p>
 
