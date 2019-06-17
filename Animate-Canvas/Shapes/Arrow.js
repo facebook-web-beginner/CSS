@@ -1,9 +1,9 @@
 window.addEventListener("DOMContentLoaded", (event )=>{
     
     
-    var canvas = document.getElementById("rectangle");
+    var canvas = document.getElementById("arrow");
     
-    function rectangleDraw(){
+    function arrowDraw(){
         
         
         if(canvas.getContext)
@@ -13,16 +13,19 @@ window.addEventListener("DOMContentLoaded", (event )=>{
         
         else
             {
-                alert(" Le canvas ID : rectangle, n'est pas supporté pas votre navigateur.")
+                alert(" Le canvas ID : arrow, n'est pas supporté pas votre navigateur.")
             }
         
         ctx.beginPath();
         
         ctx.moveTo(50,150);
         
-        ctx.lineTo(50,35)
-        ctx.lineTo(250,35)
-        ctx.lineTo(250,150)
+        ctx.lineTo(50,135)
+        ctx.lineTo(75,135)
+        ctx.lineTo(75,125)
+        ctx.lineTo(95,142)
+        ctx.lineTo(75,159)
+        ctx.lineTo(75,150)
         ctx.lineTo(50,150)
         
         
@@ -30,5 +33,5 @@ window.addEventListener("DOMContentLoaded", (event )=>{
         
     }
     
-    rectangleDraw();
+    arrowDraw();
 })
