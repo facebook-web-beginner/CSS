@@ -3,10 +3,7 @@ window.addEventListener("DOMContentLoaded", (event )=>{
     
     var canvas = document.getElementById("rectangle");
     
-    function rectangleDraw(){
-        
-        
-        if(canvas.getContext)
+            if(canvas.getContext)
             {
                 var ctx = canvas.getContext("2d");
             }
@@ -15,20 +12,29 @@ window.addEventListener("DOMContentLoaded", (event )=>{
             {
                 alert(" Le canvas ID : rectangle, n'est pas supporté pas votre navigateur.")
             }
+    
+    function rectangleDraw(param){
+        
+        
+
+        
+        var firstParam = param;
+        
+        var percents = param * 2 /100;
         
         ctx.beginPath();
         
-        ctx.moveTo(50,150);
+        ctx.moveTo(param,percents * 150);
         
-        ctx.lineTo(50,35)
-        ctx.lineTo(250,35)
-        ctx.lineTo(250,150)
-        ctx.lineTo(50,150)
+        ctx.lineTo(param,percents * 35)
+        ctx.lineTo(percents * 250,percents * 35)
+        ctx.lineTo(percents * 250,percents * 150)
+        ctx.lineTo(param,percents * 150)
         
         
         ctx.stroke();
         
     }
     
-    rectangleDraw();
+    rectangleDraw(16);
 })

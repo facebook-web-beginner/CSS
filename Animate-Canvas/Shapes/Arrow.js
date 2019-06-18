@@ -3,9 +3,6 @@ window.addEventListener("DOMContentLoaded", (event )=>{
     
     var canvas = document.getElementById("arrow");
     
-    function arrowDraw(param){
-        
-        
         if(canvas.getContext)
             {
                 var ctx = canvas.getContext("2d");
@@ -16,6 +13,11 @@ window.addEventListener("DOMContentLoaded", (event )=>{
                 alert(" Le canvas ID : arrow, n'est pas supporté pas votre navigateur.")
             }
         
+    
+    function arrowDraw(param){
+        
+        
+
                 
         var firstParam = param;
         var secondParam = param * 3;
@@ -50,5 +52,5 @@ window.addEventListener("DOMContentLoaded", (event )=>{
         
     }
     
-    arrowDraw(90);
+    arrowDraw(1000);
 })

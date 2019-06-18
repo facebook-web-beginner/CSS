@@ -8,11 +8,7 @@ console.log("DOM entièrement chargé et analysé");
  
 
 var triangle = document.getElementById("triangle");
-
-function triangleDraw ()
-    {
-     
-        
+    
         if (triangle.getContext)
         {
     
@@ -23,19 +19,30 @@ function triangleDraw ()
         else
         {
             alert(" Le canvas ID : triangle,  n'est pas pris en charge par votre navigateur.")
-        }
+        }    
+
+function triangleDraw (param)
+    {
+     
         
 
+        
+
+                firstParam = param;
+        
+                secondParam = param * 4
+        
+                
         
         
                 ctx.beginPath();
 
-                ctx.moveTo(25, 100);
+                ctx.moveTo(firstParam, secondParam);
     
-                ctx.lineTo(100, 100);
+                ctx.lineTo(secondParam, secondParam);
     
-                ctx.lineTo(62, 25);
-                ctx.lineTo(25, 100);
+                ctx.lineTo(secondParam / 100 * 62, firstParam);
+                ctx.lineTo(firstParam, secondParam);
     
                 ctx.fill();
                 ctx.stroke();
@@ -45,7 +52,7 @@ function triangleDraw ()
         
     }
     
-    triangleDraw();
+    triangleDraw(38);
 
 
  });
